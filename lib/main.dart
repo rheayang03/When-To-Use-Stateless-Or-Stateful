@@ -14,7 +14,7 @@ class ChatApp extends StatelessWidget {
       title: 'Chat App',
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      home: const LoginPage(),
+      home: const ChatPage(),
     );
   }
 }
