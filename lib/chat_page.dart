@@ -1,4 +1,4 @@
-flexible and expanded import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 class ChatPage extends StatelessWidget {
   const ChatPage({super.key});
@@ -22,7 +22,7 @@ class ChatPage extends StatelessWidget {
         children: [
           Expanded(
             child: ListView(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 😎,
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               children: [
                 MessageCard(isSent: false),
                 MessageCard(isSent: true),
@@ -62,7 +62,7 @@ class MessageCard extends StatelessWidget {
               'Hi, this is your message',
               style: TextStyle(fontSize: 16, color: Colors.white),
             ),
-            const SizedBox(height: 😎,
+            const SizedBox(height: 8),
             Image.network(
               'https://3009709.youcanlearnit.net/Alien_LIL_131338.png',
               height: 150,
